@@ -1,0 +1,380 @@
+body {
+    min-width: 320px;
+    font-size: 12px;
+    font-family: "Open Sans";
+    font-weight: 300;
+    background-color: #f5f5f5;
+    color: #fff;
+}
+
+button {
+    color: white;
+    font-weight: bold;
+    padding: 7px 20px;
+}
+
+.btn-orange {
+    background-color: #ff8b38;
+    border: 0;
+    border-radius: 2px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+.btn-transparent {
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+
+header {
+    background-color: #000;
+}
+
+header .navbar {
+    background-color: transparent;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    text-decoration: underline;
+}
+
+.promo {
+    background-image: url("../img/promo.jpg");
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 50px 0;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+}
+
+span {
+    color: #ff8b38;
+}
+
+h1 span, h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    color: #333333;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+hr {
+    display: inline-flex;
+    background-color: white;
+    height: 1.5px;
+    color: white;
+    width: 65px;
+}
+
+p {
+    font-size: 14px;
+    color: grey;
+}
+
+.promo-logo p {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sign-up .card {
+    width: 64%;
+    border: 0px solid transparent;
+}
+
+.card-header {
+    display: flex;
+    justify-content: center;
+    background-color: #f5f5f5;
+}
+
+.form-control {
+    border: 0;
+    border-bottom: 1px solid #d6d6d6;
+    border-radius: 0;
+    background-color: transparent;
+    color: #d6d6d6;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.card button {
+    width: 100%;
+    border: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color: #ff8b38;
+    font-size: 12px;
+    padding: 12px 0;
+}
+
+.card button:hover {
+    background-color: grey;
+}
+
+.social-media {
+    padding: 10px 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Параметры тени */
+    background-color: white;
+}
+
+.social-media-brands {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.social-media-brands a {
+    color: #cccccc;
+    font-size: 40px;
+    margin-left: 40px;
+}
+
+.social-media-flex {
+    display: flex;
+}
+
+section {
+    height: 100%;
+    padding: 100px 0;
+}
+
+.features-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-1 > * {
+    margin-right: 5rem;
+}
+
+.features-1 :last-child {
+    margin-right: 0;
+}
+
+.features-1 h3, .features-1 button {
+    margin: 1.5rem 0;
+}
+
+.tabs {
+    display: flex;
+    flex-direction: column;
+}
+
+.tabs :first-child {
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+}
+
+.tabs :last-child {
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.tab {
+    display: flex;
+    justify-content: center;
+    border-radius: inherit;
+    align-items: center;
+    background-color: #333333;
+    width: 100px;
+    height: 100px;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    margin: 1px;
+}
+
+.tab:hover {
+    background-color: #ff8b38;
+}
+
+.white {
+    background-color: white;
+}
+
+.orange {
+    background-color: #ff8b38;
+}
+
+.features-2 > * {
+    margin-right: 3rem;
+}
+
+.features-2 :last-child {
+    margin-right: 0;
+}
+
+.fa-cloud-upload-alt, .fa-cloud-download-alt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff8b38;
+    border: 2px solid #ff8b38;
+    border-radius: 38px;
+    width: 38px;
+    height: 38px;
+    font-size: 12px;
+}
+
+.icon {
+    width: 39px;
+    margin-right: 2rem;
+}
+
+/*ul {*/
+/*    list-style: none;*/
+/*    padding: 0;*/
+/*}*/
+/*li {*/
+/*    padding-left: 1.3em;*/
+/*}*/
+/*li:before {*/
+/*    font-family: FontAwesome;*/
+/*    content: "\f381"; !* FontAwesome Unicode *!*/
+
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    color: #ff8b38;*/
+/*    border: 2px solid #ff8b38;*/
+/*    border-radius: 38px;*/
+/*    width: 38px;*/
+/*    height: 38px;*/
+/*    font-size: 12px;*/
+/*}*/
+
+
+/* Large Devices, Wide Screen */
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 1199px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+    .social-media-brands a {
+        font-size: 30px;
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    .features-1 {
+        flex-wrap: wrap-reverse;
+    }
+
+    .f-text {
+        margin-left: 2rem;
+        width: 75%;
+    }
+
+    .features-1 > * {
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+
+    .f-img {
+        width: 100%;
+        max-height: 305px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .f-img img {
+        width: 320px;
+    }
+
+    .features-1 h3 {
+        margin-bottom: 1rem;
+    }
+
+    .features-1 h3, .features-1 button {
+        margin: 0;
+    }
+
+    .features-2 {
+        flex-wrap: wrap;
+    }
+
+    .features-2 > div {
+        width: 100%;
+        margin: 0;
+    }
+
+    .features-2 img {
+        width: auto;
+    }
+    .sub-list > h3 {
+        margin-top: 2rem;
+    }
+
+    .features-2 li {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+    .sign-up {
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 50px;
+    }
+
+    .social-media-flex {
+        flex-wrap: wrap;
+    }
+
+    .f-text {
+        width: 72%;
+    }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 476px) {
+    .tab {
+        width: 90px;
+        height: 90px;
+    }
+
+    .icon {
+        margin-right: 1rem;
+    }
+}
